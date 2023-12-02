@@ -12,6 +12,7 @@ function renderCountdown(){
 function updateCountdown() {
     const now = new Date()
     console.log(24 - now.getHours())
+    console.log(60 - now.getMinutes())
 }
 
 renderCountdown()
