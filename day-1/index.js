@@ -10,9 +10,9 @@ function renderCountdown(){
     // - Display remaining days in countdownDisplay.
     countdownDisplay.innerText = day
 }
- 
+
 renderCountdown()
 
 // Stretch goals:
 // - Display hours, minutes, seconds.
-// - Add a countdown for another festival, your birthday, or Christmas 2022.
+// - Add a countdown for another festival, your birthday, or Christmas 2023.
