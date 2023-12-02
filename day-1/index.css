@@ -38,3 +38,8 @@ body {
     font-size: 100px;
     margin: 0;
 }
+
+.countdown-text {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
