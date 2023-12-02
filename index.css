@@ -55,6 +55,11 @@ section {
     font-weight: 600;
 }
 
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
 /* MEDIA QUERIES */
 
 @media (min-width: 414px) {
