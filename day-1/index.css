@@ -28,13 +28,17 @@ body {
     background-color: var(--snow);
 }
 
+h1 {
+    text-shadow: 0 0 5px var(--snow);
+}
+
 .container {
     display: flex;
     flex-direction: column;
     background: var(--wine-red);
     color: var(--snow);
     padding: 1em 2em;
-    border-radius: 5px;
+    border-radius: .5rem;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
@@ -49,9 +53,18 @@ body {
 }
 
 section {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr auto 1fr;
+    align-items: center;
+    gap: .25rem;
+    margin-top: 1rem;
+}
+
+.time-box {
+    background: var(--dark-green);
+    color: var(--snow);
+    padding: .5rem .75rem;
+    border-radius: .5rem;
 }
 
 .time-detail {
