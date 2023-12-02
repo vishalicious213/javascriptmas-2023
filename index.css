@@ -60,6 +60,12 @@ section {
     justify-content: space-around;
 }
 
+button {
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+}
+
 /* MEDIA QUERIES */
 
 @media (min-width: 414px) {
