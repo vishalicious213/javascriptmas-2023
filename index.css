@@ -61,9 +61,17 @@ section {
 }
 
 button {
-    border-radius: 50%;
-    height: 4rem;
-    width: 4rem;
+    border: 1px solid var(--bright-red);
+    border-radius: .25rem;
+    padding: .5rem 1rem;
+    color: var(--snow);
+    background-color: var(--wine-red);
+}
+
+button:hover {
+    border: 1px solid var(--dark-green);
+    background-color: var(--light-green);
+    color: white;
 }
 
 /* MEDIA QUERIES */
