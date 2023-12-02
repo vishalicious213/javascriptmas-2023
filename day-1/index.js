@@ -1,4 +1,5 @@
 const countdownDisplay = document.getElementById("countdown-display")
+const countdownDetails = document.getElementById("countdown-details")
 
 function renderCountdown(){
     const christmas = new Date("Dec 25, 2023 00:00:00")
@@ -9,7 +10,8 @@ function renderCountdown(){
 }
 
 function updateCountdown() {
- console.log(new Date())
+    const now = new Date()
+    console.log(24 - now.getHours())
 }
 
 renderCountdown()
