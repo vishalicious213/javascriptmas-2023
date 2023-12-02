@@ -21,17 +21,17 @@ function updateCountdown() {
         countdownDetails.innerHTML = `
             <section>
                 <div>
-                    <div class="time-detail">${hours}</div>
+                    <div class="time-detail">${hours < 10 ? "0" + hours : hours}</div>
                     <div>Hours</div>
                 </div>
                 :
                 <div>
-                    <div class="time-detail">${mins}</div>
+                    <div class="time-detail">${mins < 10 ? "0" + mins : mins}</div>
                     <div>Minutes</div>
                 </div>
                 :
                 <div>
-                    <div class="time-detail">${secs}</div>
+                    <div class="time-detail">${secs < 10 ? "0" + secs : secs}</div>
                     <div>Seconds</div>
                 </div>
             </section>
