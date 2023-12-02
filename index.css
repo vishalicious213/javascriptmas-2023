@@ -31,6 +31,17 @@ section {
     margin: auto;
 }
 
+.day {
+    border: 2px solid var(--wine-red);
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: white;
+}
+
+.day:hover {
+    border: 3px solid var(--light-green);
+}
+
 .day img {
     width: 100%;
     border-radius: .5rem;
@@ -38,6 +49,10 @@ section {
 
 .day img:hover {
     transform: scale(1.1);
+}
+
+.project-title {
+    font-weight: 600;
 }
 
 /* MEDIA QUERIES */
