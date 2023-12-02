@@ -49,3 +49,8 @@ section {
     justify-content: space-evenly;
     gap: 1rem;
 }
+
+.time-detail {
+    font-size: 1.55rem;
+    margin-bottom: .25rem;
+}

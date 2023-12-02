@@ -15,19 +15,20 @@ function updateCountdown() {
     if (now.getMonth() >= 11 && now.getDate() >= 25) {
         countdownDetails.innerText = "2023 Christmas is done!"
     } else {
-        // countdownDetails.innerText = `${24 - now.getHours()} days : ${60 - now.getMinutes()} mins : ${60 - now.getSeconds()} seconds`
         countdownDetails.innerHTML = `
             <section>
-                <div class="time-detail">
-                    <div>${now.getHours()}</div>
+                <div>
+                    <div class="time-detail">${now.getHours()}</div>
                     <div>Hours</div>
                 </div>
-                <div class="time-detail">
-                    <div>${now.getMinutes()}</div>
+                :
+                <div>
+                    <div class="time-detail">${now.getMinutes()}</div>
                     <div>Minutes</div>
                 </div>
-                <div class="time-detail">
-                    <div>${now.getSeconds()}</div>
+                :
+                <div>
+                    <div class="time-detail">${now.getSeconds()}</div>
                     <div>Seconds</div>
                 </div>
             </section>
