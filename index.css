@@ -1,0 +1,19 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+
+.day {
+    width: 30%;
+}
+
+.day img {
+    width: 100%;
+    border-radius: .5rem;
+}
+
+.day img:hover {
+    transform: scale(1.1);
+}
