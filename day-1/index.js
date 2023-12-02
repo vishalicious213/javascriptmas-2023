@@ -11,6 +11,9 @@ function renderCountdown(){
 
 function updateCountdown() {
     const now = new Date()
+    const hours = 24 - now.getHours()
+    const mins = 60 -now.getMinutes()
+    const secs = 60 -now.getSeconds()
 
     if (now.getMonth() >= 11 && now.getDate() >= 25) {
         countdownDetails.innerText = "2023 Christmas is done!"
@@ -18,17 +21,17 @@ function updateCountdown() {
         countdownDetails.innerHTML = `
             <section>
                 <div>
-                    <div class="time-detail">${now.getHours()}</div>
+                    <div class="time-detail">${hours}</div>
                     <div>Hours</div>
                 </div>
                 :
                 <div>
-                    <div class="time-detail">${now.getMinutes()}</div>
+                    <div class="time-detail">${mins}</div>
                     <div>Minutes</div>
                 </div>
                 :
                 <div>
-                    <div class="time-detail">${now.getSeconds()}</div>
+                    <div class="time-detail">${secs}</div>
                     <div>Seconds</div>
                 </div>
             </section>
