@@ -58,14 +58,16 @@ section {
 .buttons {
     display: flex;
     justify-content: space-around;
+    gap: .25rem;
 }
 
 button {
     border: 1px solid var(--bright-red);
     border-radius: .25rem;
-    padding: .5rem 1rem;
+    padding: .5rem .75rem;
     color: var(--snow);
     background-color: var(--wine-red);
+    font-size: .7rem;
 }
 
 button:hover {
