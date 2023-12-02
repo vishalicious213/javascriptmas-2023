@@ -21,6 +21,10 @@ body {
     height: 100vh;
     text-align: center;
     color: var(--dark-green);
+    background-image: url("./background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     background-color: var(--snow);
 }
 
