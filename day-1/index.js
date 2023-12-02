@@ -18,9 +18,18 @@ function updateCountdown() {
         // countdownDetails.innerText = `${24 - now.getHours()} days : ${60 - now.getMinutes()} mins : ${60 - now.getSeconds()} seconds`
         countdownDetails.innerHTML = `
             <section>
-                <div>${now.getHours()}</div>
-                <div>${now.getMinutes()}</div>
-                <div>${now.getSeconds()}</div>
+                <div class="time-detail">
+                    <div>${now.getHours()}</div>
+                    <div>Hours</div>
+                </div>
+                <div class="time-detail">
+                    <div>${now.getMinutes()}</div>
+                    <div>Minutes</div>
+                </div>
+                <div class="time-detail">
+                    <div>${now.getSeconds()}</div>
+                    <div>Seconds</div>
+                </div>
             </section>
         `
     }

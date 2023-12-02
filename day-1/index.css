@@ -43,3 +43,9 @@ body {
     font-size: 1.25rem;
     font-weight: 600;
 }
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
