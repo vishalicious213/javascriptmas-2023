@@ -2,6 +2,7 @@ const tilesContainer = document.getElementById("menu-tiles")
 const tilesData = [
     {name: "Day 1", title: "Countdown to Christmas", code: "https://github.com/vishalicious213/javascriptmas-2023/tree/main/day-1", scrim: "https://scrimba.com/scrim/co7ab470e8112015497a642fc"},
     {name: "Day 2", title: "Style a Colorful Button", code: "https://github.com/vishalicious213/javascriptmas-2023/tree/main/day-2", scrim: "https://scrimba.com/scrim/coc38436b9c4ddea39a9c40c7"},
+    {name: "Day 3", title: "Divide Candy", code: "https://github.com/vishalicious213/javascriptmas-2023/tree/main/day-2", scrim: ""},
 ]
 
 function renderTiles() {
