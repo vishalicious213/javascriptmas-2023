@@ -1,7 +1,7 @@
 const tilesContainer = document.getElementById("menu-tiles")
 const tilesData = [
-    {name: "Day 1", title: "Countdown to Christmas", code: "https://github.com/vishalicious213/javascriptmas-2023/tree/main/day-1"},
-    {name: "Day 2", title: "Style a Colorful Button", code: "https://github.com/vishalicious213/javascriptmas-2023/tree/main/day-2"},
+    {name: "Day 1", title: "Countdown to Christmas", code: "https://github.com/vishalicious213/javascriptmas-2023/tree/main/day-1", scrim: "https://scrimba.com/learn/javascriptmas/-day-1-countdown-to-christmas-co80c4e67af8077afdabe0297"},
+    {name: "Day 2", title: "Style a Colorful Button", code: "https://github.com/vishalicious213/javascriptmas-2023/tree/main/day-2", scrim: "https://scrimba.com/learn/javascriptmas/-day-1-countdown-to-christmas-co80c4e67af8077afdabe0297"},
 ]
 
 console.log(tilesData)
@@ -19,7 +19,7 @@ function renderTiles() {
                 <a href="${tile.code}">
                     <button class="view-code">View Code</button>
                 </a>
-                <a href="https://scrimba.com/learn/javascriptmas/-day-1-countdown-to-christmas-co80c4e67af8077afdabe0297">
+                <a href="${tile.scrim}">
                     <button class="view-scrim">View Scrim</button>
                 </a>
             </div>
