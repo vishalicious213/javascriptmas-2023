@@ -20,7 +20,12 @@ function calcTotalCandies(children, candy) {
     const totalCandiesEaten = Math.floor(candy / children) * children
     // console.log(totalCandiesEaten)
 
-    content += `<div class="divide">Santa brought ${children} children ${candy} pieces of candy! They can each have ${totalCandiesEaten} pieces.</div>`
+    content += `
+        <div class="divide">
+            <p>Santa brought ${children} children ${candy} pieces of candy!</p>
+            <p>They can each have ${totalCandiesEaten} pieces.</p>
+        </div>
+    `
     candyDiv.innerHTML = content
     }
     
