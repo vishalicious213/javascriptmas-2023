@@ -51,8 +51,21 @@ section {
     transform: scale(1.05);
 }
 
-.project-title {
+.day p {
     font-weight: 600;
+    text-align: center;
+    color: var(--snow);
+    padding: 1rem 0;
+}
+
+.project-day {
+    background-color: var(--wine-red);
+    margin: .5rem 0 0 0;
+}
+
+.project-title {
+    background-color: var(--dark-green);
+    margin: .5rem 0;
 }
 
 .buttons {
