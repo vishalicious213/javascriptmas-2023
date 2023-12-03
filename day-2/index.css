@@ -1,8 +1,3 @@
-html, body {
-    margin: 0;
-    padding: 0;
-}
-
 :root {
     --font-family: 'Karla', sans-serif;
     --body-bg: #1E1F25;
@@ -14,4 +9,16 @@ html, body {
     --grad-color3: #ee5d6c;
     --grad-color4: #ce4993;
     --grad-color5: #6a0d83;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
