@@ -7,14 +7,14 @@ const tilesData = [
 console.log(tilesData)
 
 function renderTiles() {
-    const tiles = tilesData.map(tile => (
+    const tiles = tilesData.map((tile, index) => (
         `
         <div class="day">
-            <a href="./day-${tile.index}/index.html">
-                <img src="./img/day-1.jpg" alt="Day 1: Countdown to Christmas">
+            <a href="./day-${index+1}/index.html">
+                <img src="./img/day-${index+1}.jpg" alt="${tile.name}: ${tile.title}">
             </a>
-            <p class="project-day">Day 1</p>
-            <p class="project-title">Countdown to Christmas</p>
+            <p class="project-day">${tile.name}</p>
+            <p class="project-title">${tile.title}</p>
             <div class="buttons">
                 <a href="https://github.com/vishalicious213/javascriptmas-2023/tree/main/day-1">
                     <button class="view-code">View Code</button>
