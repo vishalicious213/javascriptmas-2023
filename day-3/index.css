@@ -1,5 +1,6 @@
 :root {
     --snow: #F0F4F7;
+    --dark-green: #344D2F;
 }
 
 * {
@@ -39,11 +40,14 @@ h1 {
     text-align: center;
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
     flex-wrap: wrap;
 }
 
 .divide {
-    outline: 1px solid var(--snow);
+    border: 2px solid var(--snow);
     max-width: 320px;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    background-color: var(--dark-green);
 }
