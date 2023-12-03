@@ -37,4 +37,13 @@ h1 {
     font-size: 1.25rem;
     margin-top: 2rem;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.divide {
+    outline: 1px solid var(--snow);
+    max-width: 320px;
 }
