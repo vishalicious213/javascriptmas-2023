@@ -22,8 +22,8 @@ function calcTotalCandies(children, candy) {
 
     content += `
         <div class="divide">
-            <p>Santa brought ${children} children ${candy} pieces of candy!</p>
-            <p>They can have ${totalCandiesEaten} pieces altogether if they each have the same amount.</p>
+            <p>Santa brought <span>${children}</span> children <span>${candy}</span> pieces of candy!</p>
+            <p>They can have <span>${totalCandiesEaten}</span> pieces altogether if they each have the same amount.</p>
         </div>
     `
     candyDiv.innerHTML = content

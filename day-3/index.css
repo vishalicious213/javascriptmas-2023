@@ -1,6 +1,7 @@
 :root {
     --snow: #F0F4F7;
     --dark-green: #344D2F;
+    --gold: #FAC57D;
 }
 
 * {
@@ -54,4 +55,8 @@ h1 {
 
 .divide p {
     margin: .75rem 0;
+}
+
+span {
+    color: var(--gold);
 }
