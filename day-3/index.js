@@ -1,4 +1,5 @@
 const candyDiv = document.getElementById("candy")
+let content = ""
 
 function calcTotalCandies(children, candy) {
     /** Challenge:
@@ -17,7 +18,10 @@ function calcTotalCandies(children, candy) {
      **/
 
     const totalCandiesEaten = Math.floor(candy / children) * children
-    console.log(totalCandiesEaten)
+    // console.log(totalCandiesEaten)
+
+    content += `<div class="divide">Santa brought ${children} children ${candy} pieces of candy! They can each have ${totalCandiesEaten} pieces.</div>`
+    candyDiv.innerHTML = content
     }
     
 calcTotalCandies(3, 10) // expected output: 9
