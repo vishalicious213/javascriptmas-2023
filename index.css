@@ -92,31 +92,38 @@ button:hover {
 
 /* MEDIA QUERIES */
 
-@media (min-width: 414px) {
+@media (max-width: 599px) {
+    .day {
+        max-width: 300px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 600px) {
     section {
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
     section {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
     section {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1500px) {
     section {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 }
 
-@media (min-width: 1366px) {
+@media (min-width: 1800px) {
     section {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     }
