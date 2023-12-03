@@ -1,9 +1,4 @@
 :root {
-    --wine-red: #C7375F;
-    --bright-red: #D42D2F;
-    --dark-green: #344D2F;
-    --light-green: #77A047;
-    --gold: #FAC57D;
     --snow: #F0F4F7;
 }
 
@@ -27,7 +22,7 @@ body {
 }
 
 main {
-    background-image: linear-gradient(to right, rgba(118, 160, 70, .5), rgba(212, 43, 46, 1));
+    background-image: linear-gradient(to right, rgba(118, 160, 70, .7), rgba(212, 43, 46, .7));
     border-radius: 1rem;
     padding: 2rem 1rem;
 }
