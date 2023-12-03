@@ -32,7 +32,6 @@ body {
 }
 
 .button {
-    /* outline: 1px solid orange; */
     border: none;
     margin: .25rem;
     font-family: var(--font-family);
@@ -45,4 +44,8 @@ body {
 
 .button:hover {
     color: var(--btn-color-hover);
+}
+
+.button-border:hover {
+    background-image: linear-gradient(115deg, var(--grad-color5), var(--grad-color4), var(--grad-color3), var(--grad-color2), var(--grad-color1));
 }
