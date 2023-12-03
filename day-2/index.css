@@ -44,6 +44,7 @@ body {
 
 .button:hover {
     color: var(--btn-color-hover);
+    cursor: pointer;
 }
 
 .button-border:hover {
