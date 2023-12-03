@@ -4,3 +4,4 @@ Links will go to the Scrimba "scrims" for each challenge. Click on the yellow "n
 
 - [Day 1: Countdown to Christmas](https://scrimba.com/scrim/co7ab470e8112015497a642fc)
 - [Day 2: Style a Colorful Button](https://scrimba.com/scrim/coc38436b9c4ddea39a9c40c7)
+- [Day 3: Divide Candy](https://scrimba.com/scrim/co0a64ee083324070159fe6a7)
