@@ -16,9 +16,22 @@ html, body {
     padding: 0;
 }
 
+body {
+    background-color: var(--body-bg);
+}
+
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
+}
+
+.button {
+    font-family: var(--font-family);
+    font-size: 2rem;
+    letter-spacing: .25rem;
+    color: var(--btn-color);
+    background-color: var(--btn-bg);
+    padding: 2rem 3rem;
 }
