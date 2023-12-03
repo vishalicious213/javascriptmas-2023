@@ -51,3 +51,7 @@ h1 {
     border-radius: .5rem;
     background-color: var(--dark-green);
 }
+
+.divide p {
+    margin: .75rem 0;
+}
