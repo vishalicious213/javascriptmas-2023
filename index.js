@@ -4,8 +4,6 @@ const tilesData = [
     {name: "Day 2", title: "Style a Colorful Button", code: "https://github.com/vishalicious213/javascriptmas-2023/tree/main/day-2", scrim: "https://scrimba.com/learn/javascriptmas/-day-1-countdown-to-christmas-co80c4e67af8077afdabe0297"},
 ]
 
-console.log(tilesData)
-
 function renderTiles() {
     const tiles = tilesData.map((tile, index) => (
         `
@@ -27,7 +25,7 @@ function renderTiles() {
         `
     ))
 
-    tilesContainer.innerHTML = tiles
+    tilesContainer.innerHTML = tiles.join("")
 }
 
 renderTiles()
