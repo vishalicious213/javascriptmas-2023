@@ -21,9 +21,25 @@ body {
     height: 100vh;
     padding: 2rem 1rem;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main {
+    background-image: linear-gradient(to right, rgba(118, 160, 70, .5), rgba(212, 43, 46, 1));
+    border-radius: 1rem;
+    padding: 2rem 1rem;
 }
 
 h1 {
     text-align: center;
     color: var(--snow);
+}
+
+#candy {
+    color: var(--snow);
+    font-size: 1.25rem;
+    margin-top: 2rem;
+    text-align: center;
 }
