@@ -1,3 +1,5 @@
+const candyDiv = document.getElementById("candy")
+
 function calcTotalCandies(children, candy) {
     /** Challenge:
      * Some children have got some pieces of candy. They 
@@ -14,7 +16,7 @@ function calcTotalCandies(children, candy) {
      * log out 9.
      **/
 
-    let totalCandiesEaten = Math.floor(candy / children) * children
+    const totalCandiesEaten = Math.floor(candy / children) * children
     console.log(totalCandiesEaten)
     }
     

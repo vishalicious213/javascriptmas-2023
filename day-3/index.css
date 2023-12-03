@@ -1,9 +1,29 @@
+:root {
+    --wine-red: #C7375F;
+    --bright-red: #D42D2F;
+    --dark-green: #344D2F;
+    --light-green: #77A047;
+    --gold: #FAC57D;
+    --snow: #F0F4F7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-image: url('./background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
-    margin: 0;
-    padding: 0;
+    padding: 2rem 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: var(--snow);
 }
